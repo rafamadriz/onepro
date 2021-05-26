@@ -130,4 +130,4 @@ It doesn't work as expected.
 
 ## Acknowledgments
 
-Inspired by [Doom One](https://github.com/hlissner/emacs-doom-themes) and [Edge](https://github.com/sainnhe/edge)
+Inspired by [OneDark](https://github.com/Binaryify/OneDark-Pro)
