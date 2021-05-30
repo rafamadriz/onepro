@@ -32,6 +32,7 @@ local function set_groups()
         SignColumn = {fg = c.fg, bg = c.bg0},
         EndOfBuffer = {fg = c.gray}, -- ~ lines at the end of a buffer
         NormalFloat = {fg = c.fg, bg = c.bg1}, -- normal text and background color for floating windows
+        FloatBorder = {fg = c.blue, bg = c.bg1},
         ColorColumn = {fg = c.none, bg = c.fg}, --  used for the columns set with 'colorcolumn'
         Conceal = {fg = c.gray}, -- placeholder characters substituted for concealed text (see 'conceallevel')
         Cursor = {fg = c.cyan, bg = c.none, style = "reverse"}, -- the character under the cursor
@@ -53,8 +54,8 @@ local function set_groups()
         NonText = {fg = c.bg1},
         Pmenu = {fg = c.fg, bg = c.bg1},
         PmenuSel = {fg = c.bg1, bg = c.blue, style = "bold"},
-        PmenuSbar = {fg = c.fg, bg = c.gray},
-        PmenuThumb = {fg = c.fg, bg = c.gray},
+        PmenuSbar = {fg = c.fg, bg = c.bg1},
+        PmenuThumb = {fg = c.fg, bg = c.fg},
         Question = {fg = c.green, style = cfg.bold},
         QuickFixLine = {fg = c.purple, bg = c.bg1, style = "bold,italic"},
         qfLineNr = {fg = c.blue, bg = c.bg1},
@@ -265,8 +266,8 @@ local function set_groups()
         NeogitBranch = {fg = c.gray_alt},
         NeogitRemote = {fg = c.purple},
         NeogitHunkHeader = {fg = c.fg, bg = c.cyan},
-        NeogitHunkHeaderHighlight = {fg = c.blue, bg = c.bg1},
-        NeogitDiffContextHighlight = {fg = c.bg0, bg = c.bg1},
+        NeogitHunkHeaderHighlight = {fg = c.blue},
+        NeogitDiffContextHighlight = {fg = c.bg0},
         NeogitDiffDeleteHighlight = {fg = c.red},
         NeogitDiffAddHighlight = {fg = c.green},
         -- GitGutter
@@ -316,7 +317,7 @@ local function set_groups()
         NvimTreeImageFile = {fg = c.purple},
         NvimTreeExecFile = {fg = c.green},
         NvimTreeSpecialFile = {fg = c.yellow, style = "underline"},
-        NvimTreeFolderName = {fg = c.blue},
+        NvimTreeFolderName = {fg = c.green},
         NvimTreeEmptyFolderName = {fg = c.gray},
         NvimTreeFolderIcon = {fg = c.blue},
         NvimTreeIndentMarker = {fg = c.gray},
