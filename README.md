@@ -6,6 +6,8 @@ One Pro
 
 ![2021-May-26_1](https://user-images.githubusercontent.com/67771985/119711397-07f32080-be4f-11eb-9906-62b13af764d3.png)
 
+# NOTE: this theme is only being updated on [themes.nvim](https://github.com/rafamadriz/themes.nvim)
+
 ## ✨ Features
 
 - Customizable.
